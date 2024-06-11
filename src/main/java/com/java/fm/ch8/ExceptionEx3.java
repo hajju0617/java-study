@@ -5,14 +5,13 @@ public class ExceptionEx3 {
         int number = 100;
         int result = 0;
 
-        try {
-            for(int i = 0; i < 10; i++) {
+        for(int i = 0; i < 10; i++) {
+            try {
                 result = number / (int)(Math.random() * 10);
                 System.out.println(result);
+            } catch (ArithmeticException e) {
+                System.out.printf("%d번째 에러 발생\n", i+1);
             }
-        } catch (ArithmeticException e) {
-            System.out.println("에러 발생");
-        }
-
+        } // for 끝
     }
 }

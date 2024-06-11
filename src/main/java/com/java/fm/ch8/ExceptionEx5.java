@@ -7,13 +7,17 @@ public class ExceptionEx5 {
 
         try {
             System.out.println(3);
-            System.out.println(0/0);
             System.out.println(4);
-        } catch (Exception e) {
+            System.out.println(0/0);
             System.out.println(5);
+            System.out.println(6);
+        } catch (ArithmeticException ae) {
+            System.out.println("에러발생");
 
         }
-        System.out.println(6);
+
+
+        System.out.println(7);
 
 
     }

@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508c2a3f-0407-490d-89c9-07d1f32cbc01" name="Changes" comment="ch7">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/EqualsEx1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,65 +61,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EqualsEx1.executor": "Run",
-    "Application.ExceptionEx10.executor": "Run",
-    "Application.ExceptionEx11.executor": "Run",
-    "Application.ExceptionEx12.executor": "Run",
-    "Application.ExceptionEx13.executor": "Run",
-    "Application.ExceptionEx14.executor": "Run",
-    "Application.ExceptionEx2.executor": "Run",
-    "Application.ExceptionEx3.executor": "Run",
-    "Application.ExceptionEx4.executor": "Run",
-    "Application.ExceptionEx5.executor": "Run",
-    "Application.ExceptionEx6.executor": "Run",
-    "Application.ExceptionEx7.executor": "Run",
-    "Application.ExceptionEx8.executor": "Run",
-    "Application.ExceptionEx9.executor": "Run",
-    "Application.FightTest.executor": "Run",
-    "Application.InterfaceTest.executor": "Run",
-    "Application.InterfaceTest2.executor": "Run",
-    "Application.InterfaceTest3.executor": "Run",
-    "Application.ParseTest.executor": "Run",
-    "Application.Practice (1).executor": "Run",
-    "Application.RepairableTest.executor": "Run",
-    "Application.com.java.fm.alrorithm.Practice.executor": "Run",
-    "Gradle.Build Java_Study.executor": "Run",
-    "Gradle.Java_Study [:ArrayEx13.main()].executor": "Run",
-    "Gradle.Java_Study [:BlockTest.main()].executor": "Run",
-    "Gradle.Java_Study [:CallStackTest.main()].executor": "Run",
-    "Gradle.Java_Study [:Practice.main()].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Java/Spring boot/SpringBootUpAndRunning-Spring-Boot-3-chapter4begin",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Java/Java_Study/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EqualsEx1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx13.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx14.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FightTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterfaceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterfaceTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterfaceTest3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParseTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.RepairableTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.java.fm.alrorithm.Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build Java_Study.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Java_Study [:ArrayEx13.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Java_Study [:BlockTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Java_Study [:CallStackTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Java_Study [:Practice.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Java/Spring boot/SpringBootUpAndRunning-Spring-Boot-3-chapter4begin&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Java/Java_Study/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Java\Java_Study\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EqualsEx1">
-    <configuration name="EqualsEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch9.EqualsEx1" />
+  <component name="RunManager" selected="Application.ExceptionEx7">
+    <configuration name="ExceptionEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.ExceptionEx3" />
       <module name="org.example.Java_Study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.fm.ch9.*" />
+          <option name="PATTERN" value="com.java.fm.ch8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,9 +127,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionEx11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.ExceptionEx11" />
-      <module name="Java_Study.main" />
+    <configuration name="ExceptionEx4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.ExceptionEx4" />
+      <module name="org.example.Java_Study.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.fm.ch8.*" />
@@ -134,9 +140,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionEx12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.ExceptionEx12" />
-      <module name="Java_Study.main" />
+    <configuration name="ExceptionEx5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.ExceptionEx5" />
+      <module name="org.example.Java_Study.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.fm.ch8.*" />
@@ -147,9 +153,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionEx13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.ExceptionEx13" />
-      <module name="Java_Study.main" />
+    <configuration name="ExceptionEx6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.ExceptionEx6" />
+      <module name="org.example.Java_Study.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.fm.ch8.*" />
@@ -160,9 +166,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionEx14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.ExceptionEx14" />
-      <module name="Java_Study.main" />
+    <configuration name="ExceptionEx7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.ExceptionEx7" />
+      <module name="org.example.Java_Study.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.fm.ch8.*" />
@@ -175,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EqualsEx1" />
-        <item itemvalue="Application.ExceptionEx14" />
-        <item itemvalue="Application.ExceptionEx13" />
-        <item itemvalue="Application.ExceptionEx12" />
-        <item itemvalue="Application.ExceptionEx11" />
+        <item itemvalue="Application.ExceptionEx7" />
+        <item itemvalue="Application.ExceptionEx6" />
+        <item itemvalue="Application.ExceptionEx5" />
+        <item itemvalue="Application.ExceptionEx4" />
+        <item itemvalue="Application.ExceptionEx3" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +207,7 @@
       <workItem from="1715178509229" duration="599000" />
       <workItem from="1715524521397" duration="2544000" />
       <workItem from="1716769326348" duration="380000" />
+      <workItem from="1718069151374" duration="4344000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <option name="closed" value="true" />

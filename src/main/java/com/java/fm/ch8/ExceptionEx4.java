@@ -11,7 +11,8 @@ public class ExceptionEx4 {
         } catch (Exception e) {
             System.out.println(5);
         }
-        System.out.println(6);
 
+
+        System.out.println(6);
     }
 }
