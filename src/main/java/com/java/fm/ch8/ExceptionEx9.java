@@ -3,13 +3,12 @@ package com.java.fm.ch8;
 public class ExceptionEx9 {
     public static void main(String[] args) {
         try {
-            Exception e = new Exception("고의로 발생");
-            throw e;
-//            throw new Exception("고의로 발생");  // 위에 두줄을 한줄로 줄이기 가능
+            throw new Exception("고의로 에러 발생시켰음");
         } catch (Exception e) {
-            System.out.println("에러메세지 : " + e.getMessage());
+            System.out.println("에러 메세지 출력 : " + e.getMessage());
             e.printStackTrace();
         }
+
         System.out.println("프로그램이 정상 종료");
 
     }
