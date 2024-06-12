@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508c2a3f-0407-490d-89c9-07d1f32cbc01" name="Changes" comment="ch8">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/FinallyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/FinallyTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/FinallyTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/TryWithResourceEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/NewExceptionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +81,7 @@
     "Application.InterfaceTest.executor": "Run",
     "Application.InterfaceTest2.executor": "Run",
     "Application.InterfaceTest3.executor": "Run",
+    "Application.NewExceptionTest.executor": "Run",
     "Application.ParseTest.executor": "Run",
     "Application.Practice (1).executor": "Run",
     "Application.RepairableTest.executor": "Run",
@@ -124,21 +115,7 @@
       <recent name="C:\Java\Java_Study\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TryWithResourceEx">
-    <configuration name="ExceptionEx16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.ExceptionEx16" />
-      <module name="org.example.Java_Study.main" />
-      <option name="PROGRAM_PARAMETERS" value="text2.txt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.fm.ch8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NewExceptionTest">
     <configuration name="FinallyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.FinallyTest" />
       <module name="org.example.Java_Study.main" />
@@ -178,6 +155,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NewExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.NewExceptionTest" />
+      <module name="org.example.Java_Study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.fm.ch8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TryWithResourceEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.TryWithResourceEx" />
       <module name="org.example.Java_Study.main" />
@@ -192,19 +182,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.NewExceptionTest" />
       <item itemvalue="Application.FinallyTest" />
       <item itemvalue="Application.FinallyTest2" />
       <item itemvalue="Application.FinallyTest3" />
       <item itemvalue="Application.TryWithResourceEx" />
-      <item itemvalue="Application.ExceptionEx16" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewExceptionTest" />
         <item itemvalue="Application.TryWithResourceEx" />
         <item itemvalue="Application.FinallyTest3" />
         <item itemvalue="Application.FinallyTest2" />
         <item itemvalue="Application.FinallyTest" />
-        <item itemvalue="Application.ExceptionEx16" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +216,8 @@
       <workItem from="1715178509229" duration="599000" />
       <workItem from="1715524521397" duration="2544000" />
       <workItem from="1716769326348" duration="380000" />
-      <workItem from="1718069151374" duration="12903000" />
+      <workItem from="1718069151374" duration="13374000" />
+      <workItem from="1718186664647" duration="1120000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <option name="closed" value="true" />
@@ -332,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718091492423</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ch8">
+      <option name="closed" value="true" />
+      <created>1718101178196</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718101178196</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
