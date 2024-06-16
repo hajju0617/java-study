@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="508c2a3f-0407-490d-89c9-07d1f32cbc01" name="Changes" comment="ch8">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/FinallyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/FinallyTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/FinallyTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/TryWithResourceEx.java" afterDir="false" />
+    <list default="true" id="508c2a3f-0407-490d-89c9-07d1f32cbc01" name="Changes" comment="ch9">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/CloneEx1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,72 +56,83 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EqualsEx1.executor": "Run",
-    "Application.ExceptionEx10.executor": "Run",
-    "Application.ExceptionEx11.executor": "Run",
-    "Application.ExceptionEx12.executor": "Run",
-    "Application.ExceptionEx13.executor": "Run",
-    "Application.ExceptionEx14.executor": "Run",
-    "Application.ExceptionEx15.executor": "Run",
-    "Application.ExceptionEx16.executor": "Run",
-    "Application.ExceptionEx2.executor": "Run",
-    "Application.ExceptionEx3.executor": "Run",
-    "Application.ExceptionEx4.executor": "Run",
-    "Application.ExceptionEx5.executor": "Run",
-    "Application.ExceptionEx6.executor": "Run",
-    "Application.ExceptionEx7.executor": "Run",
-    "Application.ExceptionEx8.executor": "Run",
-    "Application.ExceptionEx9.executor": "Run",
-    "Application.FightTest.executor": "Run",
-    "Application.FinallyTest.executor": "Run",
-    "Application.FinallyTest2.executor": "Run",
-    "Application.FinallyTest3.executor": "Run",
-    "Application.InterfaceTest.executor": "Run",
-    "Application.InterfaceTest2.executor": "Run",
-    "Application.InterfaceTest3.executor": "Run",
-    "Application.ParseTest.executor": "Run",
-    "Application.Practice (1).executor": "Run",
-    "Application.RepairableTest.executor": "Run",
-    "Application.TryWithResourceEx.executor": "Run",
-    "Application.com.java.fm.alrorithm.Practice.executor": "Run",
-    "Gradle.Build Java_Study.executor": "Run",
-    "Gradle.Java_Study [:ArrayEx13.main()].executor": "Run",
-    "Gradle.Java_Study [:BlockTest.main()].executor": "Run",
-    "Gradle.Java_Study [:CallStackTest.main()].executor": "Run",
-    "Gradle.Java_Study [:Practice.main()].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Java/Spring boot/SpringBootUpAndRunning-Spring-Boot-3-chapter4begin",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Java/Java_Study/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CardToString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CardToString2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CardToString2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CardToString2 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CardToString2 (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CardToString2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChainedExceptionEx.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualsEx1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualsEx2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExceptionEx10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx13.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx14.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx15.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx16.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx17.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExceptionEx2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionEx9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FightTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FinallyTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FinallyTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FinallyTest3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashCodeEx1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterfaceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterfaceTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterfaceTest3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NewExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParseTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.RepairableTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ToStringTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TryWithResourceEx.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.java.fm.alrorithm.Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build Java_Study.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Java_Study [:ArrayEx13.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Java_Study [:BlockTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Java_Study [:CallStackTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Java_Study [:Practice.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Java/Spring boot/SpringBootUpAndRunning-Spring-Boot-3-chapter4begin&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Java/Java_Study/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Java\Java_Study\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TryWithResourceEx">
-    <configuration name="ExceptionEx16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.ExceptionEx16" />
+  <component name="RunManager" selected="Application.CardToString2 (4)">
+    <configuration name="CardToString2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch9.CardToString2" />
       <module name="org.example.Java_Study.main" />
-      <option name="PROGRAM_PARAMETERS" value="text2.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.fm.ch8.*" />
+          <option name="PATTERN" value="com.java.fm.ch9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinallyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.FinallyTest" />
+    <configuration name="CardToString2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch9.CardToString2" />
       <module name="org.example.Java_Study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.fm.ch8.*" />
+          <option name="PATTERN" value="com.java.fm.ch9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinallyTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.FinallyTest2" />
+    <configuration name="CardToString2 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch9.CardToString2" />
       <module name="org.example.Java_Study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.fm.ch8.*" />
+          <option name="PATTERN" value="com.java.fm.ch9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinallyTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.FinallyTest3" />
+    <configuration name="CardToString2 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch9.CardToString2" />
       <module name="org.example.Java_Study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.fm.ch8.*" />
+          <option name="PATTERN" value="com.java.fm.ch9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryWithResourceEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch8.TryWithResourceEx" />
+    <configuration name="CardToString2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch9.CardToString2" />
       <module name="org.example.Java_Study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.fm.ch8.*" />
+          <option name="PATTERN" value="com.java.fm.ch9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,19 +193,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FinallyTest" />
-      <item itemvalue="Application.FinallyTest2" />
-      <item itemvalue="Application.FinallyTest3" />
-      <item itemvalue="Application.TryWithResourceEx" />
-      <item itemvalue="Application.ExceptionEx16" />
+      <item itemvalue="Application.CardToString2" />
+      <item itemvalue="Application.CardToString2 (1)" />
+      <item itemvalue="Application.CardToString2 (2)" />
+      <item itemvalue="Application.CardToString2 (3)" />
+      <item itemvalue="Application.CardToString2 (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TryWithResourceEx" />
-        <item itemvalue="Application.FinallyTest3" />
-        <item itemvalue="Application.FinallyTest2" />
-        <item itemvalue="Application.FinallyTest" />
-        <item itemvalue="Application.ExceptionEx16" />
+        <item itemvalue="Application.CardToString2 (4)" />
+        <item itemvalue="Application.CardToString2 (3)" />
+        <item itemvalue="Application.CardToString2 (2)" />
+        <item itemvalue="Application.CardToString2 (1)" />
+        <item itemvalue="Application.CardToString2" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +227,10 @@
       <workItem from="1715178509229" duration="599000" />
       <workItem from="1715524521397" duration="2544000" />
       <workItem from="1716769326348" duration="380000" />
-      <workItem from="1718069151374" duration="12903000" />
+      <workItem from="1718069151374" duration="13374000" />
+      <workItem from="1718186664647" duration="1727000" />
+      <workItem from="1718257228998" duration="7324000" />
+      <workItem from="1718332132994" duration="2470000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <option name="closed" value="true" />
@@ -332,7 +336,39 @@
       <option name="project" value="LOCAL" />
       <updated>1718091492423</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ch8">
+      <option name="closed" value="true" />
+      <created>1718101178196</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718101178196</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ch8">
+      <option name="closed" value="true" />
+      <created>1718188346509</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1718188346509</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ch8">
+      <option name="closed" value="true" />
+      <created>1718271059911</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1718271059911</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ch9">
+      <option name="closed" value="true" />
+      <created>1718271076942</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1718271076942</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +377,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java" />
     <MESSAGE value="ch8" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch8" />
+    <MESSAGE value="ch9" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -350,6 +387,34 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx17.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/fm/ch9/EqualsEx2.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx17.java</url>
+          <line>3</line>
+          <properties class="com.java.fm.ch8.ExceptionEx17" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/fm/ch9/EqualsEx2.java</url>
+          <line>3</line>
+          <properties class="com.java.fm.ch9.EqualsEx2" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
