@@ -1,6 +1,6 @@
 package com.java.fm.ch9;
 
-import org.w3c.dom.ls.LSOutput;
+
 
 public class HashCodeEx1 {
     public static void main(String[] args) {
@@ -13,6 +13,8 @@ public class HashCodeEx1 {
         System.out.println(str2.hashCode());
         System.out.println(System.identityHashCode(str1));
         System.out.println(System.identityHashCode(str2));
+
+
 
 
     }
