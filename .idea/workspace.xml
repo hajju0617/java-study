@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508c2a3f-0407-490d-89c9-07d1f32cbc01" name="Changes" comment="ch9">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/ShallowDeepCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/ClassEx1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/CloneEx2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/CloneEx2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/CardToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/CardToString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +67,7 @@
     "Application.CardToString2 (4).executor": "Run",
     "Application.CardToString2.executor": "Run",
     "Application.ChainedExceptionEx.executor": "Run",
+    "Application.ClassEx1.executor": "Run",
     "Application.EqualsEx1.executor": "Run",
     "Application.EqualsEx2.executor": "Debug",
     "Application.ExceptionEx10.executor": "Run",
@@ -130,13 +131,13 @@
       <recent name="C:\Java\Java_Study\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShallowDeepCopy (1)">
-    <configuration name="ArrayEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch5.ArrayEx1" />
+  <component name="RunManager" selected="Application.ClassEx1">
+    <configuration name="ClassEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch9.ClassEx1" />
       <module name="org.example.Java_Study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.fm.ch5.*" />
+          <option name="PATTERN" value="com.java.fm.ch9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,19 +198,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ClassEx1" />
       <item itemvalue="Application.ShallowDeepCopy" />
       <item itemvalue="Application.ShallowDeepCopy (1)" />
       <item itemvalue="Application.EqualsEx1" />
-      <item itemvalue="Application.ArrayEx1" />
       <item itemvalue="Application.HashCodeEx1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassEx1" />
         <item itemvalue="Application.ShallowDeepCopy (1)" />
         <item itemvalue="Application.ShallowDeepCopy" />
         <item itemvalue="Application.EqualsEx1" />
         <item itemvalue="Application.HashCodeEx1" />
-        <item itemvalue="Application.ArrayEx1" />
       </list>
     </recent_temporary>
   </component>
