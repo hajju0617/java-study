@@ -1,23 +1,36 @@
 package com.java.fm.ch6;
 
 public class TvTest {
-//    public static void main(String[] args) {
-//        Tv t = new Tv();
-//        t.channel = 7;
-//        t.channelDown();
-//        System.out.println("현재 채널은 " + t.channel + "입니다.");
-//
-//    }
+
+    public static void main(String[] args) {
+        Tv235 tv235 = new Tv235();
+        tv235.channel = 7;
+        tv235.channelUp();
+
+        System.out.println("현재 채널은" + tv235.channel + "입니다.");
+
+    }
 }
-//class Tv {
-//    String color;
-//    int channel;
-//    boolean power;
-//
-//    void power() { power = !power; }
-//    void channelUp() { ++channel; }
-//    void channelDown() { --channel; }
-//}
+
+class Tv235 {
+    String color;
+    int channel;
+    boolean power;
+
+    void power() {
+        power = !power;
+    }
+    void channelUp() {
+        channel++;
+    }
+    void channelDown() {
+        channel--;
+    }
+}
+
+
+
+
         /*
         void와 return의 개념
         void
@@ -31,7 +44,7 @@ public class TvTest {
         차이점
         기본적으로 void와 return은 메소드의 반환 유형을 정의하는 데 사용되는데
         void는 반환 값이 없음을 의미하고, return은 특정 값을 반환함을 의미합니다.
-        void 메소드는 return 문을 생략할 수 있지만, 값이 반환되는 메소드에서는 return 문을 반드시 포함해야 합니다.
+        void 메소드는 return 문을 생략할 수 있지만, 값 이 반환되는 메소드에서는 return 문을 반드시 포함해야 합니다.
 
         외부
         코드에서 '외부'라는 용어는 보통 메소드가 속한 클래스나 객체 외부를 의미

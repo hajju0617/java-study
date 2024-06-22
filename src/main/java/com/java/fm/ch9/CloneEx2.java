@@ -17,3 +17,8 @@ public class CloneEx2 {
         System.out.println(Arrays.toString(arrClone));
     }
 }
+
+
+
+
+
