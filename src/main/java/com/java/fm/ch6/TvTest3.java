@@ -31,7 +31,6 @@ public class TvTest3 {
         객체 t1과 t2의 channel 값이 출력되며, 이때 모두 0입니다.
          */
 
-
 }
 
 

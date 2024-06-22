@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="508c2a3f-0407-490d-89c9-07d1f32cbc01" name="Changes" comment="ch9">
+    <list default="true" id="508c2a3f-0407-490d-89c9-07d1f32cbc01" name="Changes" comment="ch6 복습">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch6/Tv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch6/Tv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch6/TvTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch6/TvTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch6/TvTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch6/TvTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch6/TvTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch6/TvTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/CloneEx2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/CloneEx2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch6/TvTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch6/TvTest4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +106,7 @@
     "Application.TvTest.executor": "Run",
     "Application.TvTest2.executor": "Run",
     "Application.TvTest3.executor": "Run",
+    "Application.TvTest4.executor": "Run",
     "Application.com.java.fm.alrorithm.Practice.executor": "Run",
     "Gradle.Build Java_Study.executor": "Run",
     "Gradle.Java_Study [:ArrayEx13.main()].executor": "Run",
@@ -138,20 +136,7 @@
       <recent name="C:\Java\Java_Study\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TvTest3">
-    <configuration name="ClassEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch9.ClassEx1" />
-      <module name="org.example.Java_Study.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.fm.ch9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TvTest4">
     <configuration name="ShallowDeepCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.fm.ch9.ShallowDeepCopy" />
       <module name="org.example.Java_Study.main" />
@@ -217,20 +202,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TvTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch6.TvTest4" />
+      <module name="org.example.Java_Study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.fm.ch6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.TvTest" />
       <item itemvalue="Application.TvTest2" />
       <item itemvalue="Application.TvTest3" />
+      <item itemvalue="Application.TvTest4" />
       <item itemvalue="Application.StringEx3" />
-      <item itemvalue="Application.ClassEx1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TvTest4" />
         <item itemvalue="Application.TvTest3" />
         <item itemvalue="Application.TvTest2" />
         <item itemvalue="Application.TvTest" />
         <item itemvalue="Application.StringEx3" />
-        <item itemvalue="Application.ClassEx1" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +264,7 @@
       <workItem from="1718543073960" duration="685000" />
       <workItem from="1718635513356" duration="337000" />
       <workItem from="1718977821629" duration="1891000" />
-      <workItem from="1719022695451" duration="16194000" />
+      <workItem from="1719022695451" duration="23601000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <option name="closed" value="true" />
@@ -420,7 +418,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719001239321</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="ch6 복습">
+      <option name="closed" value="true" />
+      <created>1719047736375</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1719047736375</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +436,8 @@
     <MESSAGE value="java" />
     <MESSAGE value="ch8" />
     <MESSAGE value="ch9" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch9" />
+    <MESSAGE value="ch6 복습" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch6 복습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

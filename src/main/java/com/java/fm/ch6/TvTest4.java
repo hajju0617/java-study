@@ -17,16 +17,35 @@ public class TvTest4 {
     이 연산자는 객체의 상태를 나타내는 필드에 접근하거나, 객체의 행동을 정의하는 메소드를 호출할 때 사용됩니다.
      */
     public static void main(String[] args) {
-        Tv[] tvArr = new Tv[3];
+        Tv242[] tvArr = new Tv242[3];
 
         for(int i = 0; i < tvArr.length; i++) {
-            tvArr[i] = new Tv();
+            tvArr[i] = new Tv242();
             tvArr[i].channel = i + 10;
+            System.out.printf("tvArr[%d] = %d\n", i, tvArr[i].channel);
         }
+
+        System.out.println("channelUp");
 
         for(int i = 0; i < tvArr.length; i++) {
             tvArr[i].channelUp();
-            System.out.printf("tvArr[%d].channel = %d\n", i,tvArr[i].channel);
+            System.out.printf("tvArr[%d] = %d\n", i, tvArr[i].channel);
         }
+    }
+}
+
+class Tv242 {
+    String color;
+    int channel;
+    boolean power;
+
+    void power() {
+        power = !power;
+    }
+    void channelUp() {
+        channel++;
+    }
+    void channelDown() {
+        channel--;
     }
 }
