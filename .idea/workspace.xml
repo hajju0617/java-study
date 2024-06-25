@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="508c2a3f-0407-490d-89c9-07d1f32cbc01" name="Changes" comment="ch6 복습">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/StringEx2.java" afterDir="false" />
+    <list default="true" id="508c2a3f-0407-490d-89c9-07d1f32cbc01" name="Changes" comment="ch9">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/StringEx4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/StringEx3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/StringEx3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +101,7 @@
     "Application.ShallowDeepCopy.executor": "Run",
     "Application.StringEx2.executor": "Run",
     "Application.StringEx3.executor": "Run",
+    "Application.StringEx4.executor": "Run",
     "Application.ToStringTest.executor": "Run",
     "Application.TryWithResourceEx.executor": "Run",
     "Application.TvTest.executor": "Run",
@@ -137,7 +137,7 @@
       <recent name="C:\Java\Java_Study\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringEx3">
+  <component name="RunManager" selected="Application.StringEx4">
     <configuration name="StringEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.fm.ch9.StringEx2" />
       <module name="org.example.Java_Study.main" />
@@ -164,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TvTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch6.TvTest2" />
+    <configuration name="StringEx4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch9.StringEx4" />
       <module name="org.example.Java_Study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.fm.ch6.*" />
+          <option name="PATTERN" value="com.java.fm.ch9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,28 +204,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.StringEx4" />
       <item itemvalue="Application.StringEx2" />
-      <item itemvalue="Application.TvTest2" />
       <item itemvalue="Application.TvTest3" />
       <item itemvalue="Application.TvTest4" />
       <item itemvalue="Application.StringEx3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringEx4" />
         <item itemvalue="Application.StringEx3" />
         <item itemvalue="Application.StringEx2" />
         <item itemvalue="Application.TvTest4" />
         <item itemvalue="Application.TvTest3" />
-        <item itemvalue="Application.TvTest2" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.10-azul-17.0.10-4caba194b151-cd1dbda1" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -253,6 +246,7 @@
       <workItem from="1718635513356" duration="337000" />
       <workItem from="1718977821629" duration="1891000" />
       <workItem from="1719022695451" duration="23601000" />
+      <workItem from="1719307646837" duration="2151000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <option name="closed" value="true" />
@@ -414,7 +408,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719047736375</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="ch9">
+      <option name="closed" value="true" />
+      <created>1719224974011</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1719224974011</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,9 +425,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java" />
     <MESSAGE value="ch8" />
-    <MESSAGE value="ch9" />
     <MESSAGE value="ch6 복습" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch6 복습" />
+    <MESSAGE value="ch9" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
