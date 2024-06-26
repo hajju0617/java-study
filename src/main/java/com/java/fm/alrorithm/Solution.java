@@ -19,10 +19,7 @@ public class Solution {
             // 리스트 안의 문자열 배열의 빈칸의 갯수를 셈 (빈칸 == 모든 문자가 다 사라짐을 의미)
             if (list.get(i).length == 0) {
                 num++;
-
-
             }
-
         }
         return num;
     }
@@ -43,6 +40,5 @@ class Practice {
         System.out.println("babbling2 결과: " + solution.solution(babbling2));
         System.out.println("babbling3 결과: " + solution.solution(babbling3));
     }
-
 }
 
