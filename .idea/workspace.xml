@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="508c2a3f-0407-490d-89c9-07d1f32cbc01" name="Changes" comment="ch9">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/alrorithm/Practice2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="508c2a3f-0407-490d-89c9-07d1f32cbc01" name="Changes" comment="이메일 자르기 연습" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -302,6 +298,7 @@
       <workItem from="1720517676198" duration="1251000" />
       <workItem from="1721353503621" duration="2835000" />
       <workItem from="1721380319659" duration="240000" />
+      <workItem from="1721383911934" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <option name="closed" value="true" />
@@ -487,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719764374641</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="이메일 자르기 연습">
+      <option name="closed" value="true" />
+      <created>1721383935751</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1721383935751</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +503,8 @@
     <MESSAGE value="ch8" />
     <MESSAGE value="ch6 복습" />
     <MESSAGE value="ch9" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch9" />
+    <MESSAGE value="이메일 자르기 연습" />
+    <option name="LAST_COMMIT_MESSAGE" value="이메일 자르기 연습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
