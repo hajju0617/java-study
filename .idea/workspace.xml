@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508c2a3f-0407-490d-89c9-07d1f32cbc01" name="Changes" comment="연습">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/StringBufferEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/StringEx7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/StringBufferEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/StringBufferEx1.java" afterDir="false" />
     </list>
@@ -57,98 +58,99 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayEx1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CardToString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CardToString2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CardToString2 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CardToString2 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CardToString2 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CardToString2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChainedExceptionEx.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClassEx1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EqualsEx1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EqualsEx2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ExceptionEx10.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionEx11.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionEx12.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionEx13.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionEx14.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionEx15.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionEx16.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionEx17.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ExceptionEx2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionEx3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionEx4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionEx5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionEx6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionEx7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionEx8.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionEx9.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FightTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FinallyTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FinallyTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FinallyTest3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashCodeEx1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InterfaceTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InterfaceTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InterfaceTest3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NewExceptionTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ParseTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practice (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.RepairableTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShallowDeepCopy (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShallowDeepCopy.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBufferEx1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBufferEx2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringEx2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringEx3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringEx4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringEx6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ToStringTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TryWithResourceEx.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TvTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TvTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TvTest3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TvTest4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.java.fm.alrorithm.Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.temp (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.temp (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.temp (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.temp (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.temp (5).executor&quot;: &quot;Run&quot;,
-    &quot;Application.temp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.temp2.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.Build Java_Study.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Java_Study [:ArrayEx13.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Java_Study [:BlockTest.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Java_Study [:CallStackTest.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Java_Study [:Practice.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Java/Spring boot/SpringBootUpAndRunning-Spring-Boot-3-chapter4begin&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Java/Java_Study/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayEx1.executor": "Run",
+    "Application.CardToString.executor": "Run",
+    "Application.CardToString2 (1).executor": "Run",
+    "Application.CardToString2 (2).executor": "Run",
+    "Application.CardToString2 (3).executor": "Run",
+    "Application.CardToString2 (4).executor": "Run",
+    "Application.CardToString2.executor": "Run",
+    "Application.ChainedExceptionEx.executor": "Run",
+    "Application.ClassEx1.executor": "Run",
+    "Application.EqualsEx1.executor": "Run",
+    "Application.EqualsEx2.executor": "Debug",
+    "Application.ExceptionEx10.executor": "Run",
+    "Application.ExceptionEx11.executor": "Run",
+    "Application.ExceptionEx12.executor": "Run",
+    "Application.ExceptionEx13.executor": "Run",
+    "Application.ExceptionEx14.executor": "Run",
+    "Application.ExceptionEx15.executor": "Run",
+    "Application.ExceptionEx16.executor": "Run",
+    "Application.ExceptionEx17.executor": "Debug",
+    "Application.ExceptionEx2.executor": "Run",
+    "Application.ExceptionEx3.executor": "Run",
+    "Application.ExceptionEx4.executor": "Run",
+    "Application.ExceptionEx5.executor": "Run",
+    "Application.ExceptionEx6.executor": "Run",
+    "Application.ExceptionEx7.executor": "Run",
+    "Application.ExceptionEx8.executor": "Run",
+    "Application.ExceptionEx9.executor": "Run",
+    "Application.FightTest.executor": "Run",
+    "Application.FinallyTest.executor": "Run",
+    "Application.FinallyTest2.executor": "Run",
+    "Application.FinallyTest3.executor": "Run",
+    "Application.HashCodeEx1.executor": "Run",
+    "Application.InterfaceTest.executor": "Run",
+    "Application.InterfaceTest2.executor": "Run",
+    "Application.InterfaceTest3.executor": "Run",
+    "Application.NewExceptionTest.executor": "Run",
+    "Application.ParseTest.executor": "Run",
+    "Application.Practice (1).executor": "Run",
+    "Application.RepairableTest.executor": "Run",
+    "Application.ShallowDeepCopy (1).executor": "Run",
+    "Application.ShallowDeepCopy.executor": "Run",
+    "Application.StringBufferEx1.executor": "Run",
+    "Application.StringBufferEx2.executor": "Run",
+    "Application.StringEx2.executor": "Run",
+    "Application.StringEx3.executor": "Run",
+    "Application.StringEx4.executor": "Run",
+    "Application.StringEx6.executor": "Run",
+    "Application.StringEx7.executor": "Run",
+    "Application.ToStringTest.executor": "Run",
+    "Application.TryWithResourceEx.executor": "Run",
+    "Application.TvTest.executor": "Run",
+    "Application.TvTest2.executor": "Run",
+    "Application.TvTest3.executor": "Run",
+    "Application.TvTest4.executor": "Run",
+    "Application.com.java.fm.alrorithm.Practice.executor": "Run",
+    "Application.temp (1).executor": "Run",
+    "Application.temp (2).executor": "Run",
+    "Application.temp (3).executor": "Run",
+    "Application.temp (4).executor": "Run",
+    "Application.temp (5).executor": "Run",
+    "Application.temp.executor": "Run",
+    "Application.temp2.executor": "Debug",
+    "Gradle.Build Java_Study.executor": "Run",
+    "Gradle.Java_Study [:ArrayEx13.main()].executor": "Run",
+    "Gradle.Java_Study [:BlockTest.main()].executor": "Run",
+    "Gradle.Java_Study [:CallStackTest.main()].executor": "Run",
+    "Gradle.Java_Study [:Practice.main()].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Java/Spring boot/SpringBootUpAndRunning-Spring-Boot-3-chapter4begin",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Java/Java_Study/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Java\Java_Study\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringBufferEx2">
+  <component name="RunManager" selected="Application.StringEx7">
     <configuration name="StringBufferEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.fm.ch9.StringBufferEx1" />
       <module name="org.example.Java_Study.main" />
@@ -175,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="temp (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fm.alrorithm.temp" />
+    <configuration name="StringEx7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch9.StringEx7" />
       <module name="org.example.Java_Study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.fm.alrorithm.*" />
+          <option name="PATTERN" value="com.java.fm.ch9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,28 +217,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.StringEx7" />
       <item itemvalue="Application.StringBufferEx2" />
       <item itemvalue="Application.StringBufferEx1" />
       <item itemvalue="Application.temp2" />
-      <item itemvalue="Application.temp (2)" />
       <item itemvalue="Application.temp (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringBufferEx2" />
+        <item itemvalue="Application.StringEx7" />
         <item itemvalue="Application.StringBufferEx1" />
+        <item itemvalue="Application.StringBufferEx2" />
         <item itemvalue="Application.temp2" />
         <item itemvalue="Application.temp (3)" />
-        <item itemvalue="Application.temp (2)" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.10-azul-17.0.10-4caba194b151-cd1dbda1" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -510,7 +505,8 @@
     <MESSAGE value="ch6 복습" />
     <MESSAGE value="ch9" />
     <MESSAGE value="연습" />
-    <option name="LAST_COMMIT_MESSAGE" value="연습" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -528,7 +524,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx17.java</url>
           <line>3</line>
-          <properties class="com.java.fm.ch8.ExceptionEx17" method="main">
+          <properties class="com.java.fm.ch8.ExceptionEx17">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
