@@ -8,5 +8,10 @@ public class StringBufferEx1 {
 
         StringBuffer str2 = new StringBuffer();
         System.out.println(str2.capacity());
+
+        StringBuffer str3 = new StringBuffer("01");
+        StringBuffer str3_2 = str3.append(23);
+        System.out.println("capacity = " + str3_2.capacity());
+        System.out.println("capacity = " + str3.capacity());
     }
 }

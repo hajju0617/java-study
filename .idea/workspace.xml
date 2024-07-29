@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="508c2a3f-0407-490d-89c9-07d1f32cbc01" name="Changes" comment="이메일 자르기 연습">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="508c2a3f-0407-490d-89c9-07d1f32cbc01" name="Changes" comment="연습">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/StringBufferEx2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/StringBufferEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/StringBufferEx1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +101,7 @@
     &quot;Application.ShallowDeepCopy (1).executor&quot;: &quot;Run&quot;,
     &quot;Application.ShallowDeepCopy.executor&quot;: &quot;Run&quot;,
     &quot;Application.StringBufferEx1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringBufferEx2.executor&quot;: &quot;Run&quot;,
     &quot;Application.StringEx2.executor&quot;: &quot;Run&quot;,
     &quot;Application.StringEx3.executor&quot;: &quot;Run&quot;,
     &quot;Application.StringEx4.executor&quot;: &quot;Run&quot;,
@@ -145,7 +148,7 @@
       <recent name="C:\Java\Java_Study\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.temp2">
+  <component name="RunManager" selected="Application.StringBufferEx2">
     <configuration name="StringBufferEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.fm.ch9.StringBufferEx1" />
       <module name="org.example.Java_Study.main" />
@@ -159,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="temp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fm.alrorithm.temp" />
+    <configuration name="StringBufferEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.fm.ch9.StringBufferEx2" />
       <module name="org.example.Java_Study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.fm.alrorithm.*" />
+          <option name="PATTERN" value="com.java.fm.ch9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,19 +215,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.StringBufferEx2" />
       <item itemvalue="Application.StringBufferEx1" />
       <item itemvalue="Application.temp2" />
-      <item itemvalue="Application.temp (1)" />
       <item itemvalue="Application.temp (2)" />
       <item itemvalue="Application.temp (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.temp2" />
+        <item itemvalue="Application.StringBufferEx2" />
         <item itemvalue="Application.StringBufferEx1" />
+        <item itemvalue="Application.temp2" />
         <item itemvalue="Application.temp (3)" />
         <item itemvalue="Application.temp (2)" />
-        <item itemvalue="Application.temp (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +274,13 @@
       <workItem from="1721222190949" duration="2198000" />
       <workItem from="1721472824647" duration="2957000" />
       <workItem from="1721563739505" duration="3000" />
-      <workItem from="1721571582198" duration="1275000" />
+      <workItem from="1721571582198" duration="1309000" />
+      <workItem from="1721831041378" duration="600000" />
+      <workItem from="1721911793304" duration="2704000" />
+      <workItem from="1722003556975" duration="1501000" />
+      <workItem from="1722096513482" duration="1038000" />
+      <workItem from="1722150637780" duration="605000" />
+      <workItem from="1722179821854" duration="1042000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <option name="closed" value="true" />
@@ -481,7 +490,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721488360764</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="연습">
+      <option name="closed" value="true" />
+      <created>1721581230538</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1721581230538</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,15 +525,10 @@
           <line>21</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/java/fm/alrorithm/temp2.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/java/fm/ch8/ExceptionEx17.java</url>
           <line>3</line>
-          <properties class="com.java.fm.ch8.ExceptionEx17">
+          <properties class="com.java.fm.ch8.ExceptionEx17" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
