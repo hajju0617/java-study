@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="508c2a3f-0407-490d-89c9-07d1f32cbc01" name="Changes" comment="ch9">
+    <list default="true" id="508c2a3f-0407-490d-89c9-07d1f32cbc01" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/StringBufferEx2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/fm/ch9/StringBufferEx2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +148,7 @@
       <recent name="C:\Java\Java_Study\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringEx7">
+  <component name="RunManager" selected="Application.StringBufferEx2">
     <configuration name="StringBufferEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.fm.ch9.StringBufferEx1" />
       <module name="org.example.Java_Study.main" />
@@ -222,13 +223,20 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringBufferEx2" />
         <item itemvalue="Application.StringEx7" />
         <item itemvalue="Application.StringBufferEx1" />
-        <item itemvalue="Application.StringBufferEx2" />
         <item itemvalue="Application.temp2" />
         <item itemvalue="Application.temp (3)" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-azul-17.0.10-4caba194b151-cd1dbda1" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -273,6 +281,8 @@
       <workItem from="1722096513482" duration="1038000" />
       <workItem from="1722150637780" duration="605000" />
       <workItem from="1722179821854" duration="1042000" />
+      <workItem from="1722677121304" duration="367000" />
+      <workItem from="1722677500868" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <option name="closed" value="true" />
@@ -490,7 +500,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721581230538</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="test">
+      <option name="closed" value="true" />
+      <created>1722677206623</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1722677206623</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
