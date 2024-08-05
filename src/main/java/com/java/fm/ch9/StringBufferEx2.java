@@ -20,5 +20,7 @@ public class StringBufferEx2 {
 
         System.out.println("sb = " + sb.capacity());
         System.out.println("sb = " + sb.length());
+
+        
     }
 }
