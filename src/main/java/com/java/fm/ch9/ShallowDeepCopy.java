@@ -38,10 +38,11 @@ class Circle implements Cloneable {
         try {
             obj = super.clone();
             System.out.println("obj = " + obj);
-        } catch (CloneNotSupportedException e) {  }
+        } catch (CloneNotSupportedException e) {
+
+        }
 
         return (Circle) obj;
-
     }
 
     public Circle deepCopy() {
@@ -52,7 +53,6 @@ class Circle implements Cloneable {
         } catch (CloneNotSupportedException e) {
 
         }
-
         Circle c = (Circle)obj;
         c.p = new Point(this.p.x, this.p.y);
 
