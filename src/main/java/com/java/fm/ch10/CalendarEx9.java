@@ -30,7 +30,7 @@ class CalendarEx9 {
     public static String convertDayToDate(int day) {
         int year = 1;
         int month = 0;
-//        int numOfLeapYear =0; // 윤년의 수
+//        int numOfLeapYear = 0; // 윤년의 수
 
         while(true) {
             int aYear = isLeapYear(year) ? 366 : 365;
@@ -67,7 +67,7 @@ class CalendarEx9 {
                 numOfLeapYear++;
         }
 
-        // 전년도까지의 일 수를 구한다.
+        // 전년도까지의 일 수를 구함.
         int toLastYearDaySum = (year - 1) * 365 + numOfLeapYear;
 
         // 올해의 현재 월까지의 일수 계산
@@ -77,7 +77,7 @@ class CalendarEx9 {
             thisYearDaySum+=endOfMonth[i];
         }
 
-        // 윤년이고, 2월이 포함되어 있으면 1일을 증가시킨다.
+        // 윤년이고, 2월이 포함되어 있으면 1일을 증가.
         if (month > 2 && isLeapYear(year))
             thisYearDaySum++;
 
