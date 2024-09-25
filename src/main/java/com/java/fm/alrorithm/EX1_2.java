@@ -87,13 +87,13 @@ class BouncingBall {
                 ConvDataToString();
                 out.print(" " + StrX + "        " + StrY);
 
-                /* ���� ź�� ���� �׷��� ���� */
-                for (b = 0; b < Math.round(y * 3); b++) { /* bounding 3ȸ ���� */
+
+                for (b = 0; b < Math.round(y * 3); b++) {
                     out.print("  ");
                 }
                 out.println("��");
 
-                if (y < 0.0) { /* ���� ��ġ�� ���� �ٴڿ� ����� ���� ��� ��� */
+                if (y < 0.0) {
                     vyold = Math.abs(0.75f * vyold);
                     y = 0.0f;
                     ++bounce;
