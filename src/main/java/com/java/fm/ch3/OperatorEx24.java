@@ -10,8 +10,8 @@ public class OperatorEx24 {
 
         x = 6;
         System.out.printf("x = %d, x %% 2 == 0 || x %% 3 ==0 && x %% 6 != 0 = %b\n", x, x %2 ==0 || x % 3 ==0 && x%6!=0 );
-
         System.out.printf("x = %d, (x %% 2 == 0 || x %% 3 ==0) && x %% 6 != 0 = %b\n", x, (x %2 ==0 || x % 3 ==0) && x%6!=0 );
+        // 괄호의 차이 (&&가 || 보다 우선 순위가 더 높음)
 
         ch = '1';
         System.out.printf("ch = %c, '0' <= ch && ch <= '9' = %b\n", ch,'0' <= ch && ch <= '9');
@@ -24,7 +24,5 @@ public class OperatorEx24 {
 
         ch = 'q';
         System.out.printf("ch = %c, ch == 'q' || ch == 'Q' = %b\n", ch, ch == 'q' || ch == 'Q');
-
-
     }
 }
