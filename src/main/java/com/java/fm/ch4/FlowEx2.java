@@ -16,6 +16,11 @@ public class FlowEx2 {
         if (input != 0) System.out.println("입력한 숫자는 0이 아님.");
         System.out.printf("입력한 숫자는 %d임.", input);
 
+//        if (input != 0) {
+//            System.out.println("입력한 숫자는 0이 아님.");
+//            System.out.printf("입력한 숫자는 %d임.", input);
+//        }
+
 
     }
 }
