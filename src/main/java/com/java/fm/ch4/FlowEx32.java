@@ -3,27 +3,26 @@ package com.java.fm.ch4;
 import java.util.Scanner;
 public class FlowEx32 {
     public static void main(String[] args) {
-        int menu =0, num=0;
+        int menu = 0, num = 0;
+        Scanner scanner = new Scanner(System.in);
 
-        Scanner scan = new Scanner(System.in);
+        while (true) {
+            System.out.println("1. 집밥");
+            System.out.println("2. 배달음식");
+            System.out.println("3. 외식");
+            System.out.print("원하는 것을 선택. (종료 : 0) : ");
 
-        while(true) {
-            System.out.println("(1) square");
-            System.out.println("(2) square root");
-            System.out.println("(3) log");
-            System.out.print("원하는 메뉴(1~3)를 선택하세요. 종료(=0) : ");
+            menu = scanner.nextInt();
+            scanner.nextLine();     // nextInt에서 입력한 개행문자(%n or \n) 처리. (nextInt는 개행문자 처리 못함)
 
-            String tmp = scan.nextLine();
-            menu = Integer.parseInt(tmp);
-
-            if(menu ==0) {
-                System.out.println("프로그램을 종료합니다.");
+            if (menu == 0) {
+                System.out.println("종료.");
                 break;
             } else if (!(1 <= menu && menu <= 3)) {
-                System.out.println("메뉴를 잘못 선택하셨습니다. 종료(=0)");
+                System.out.println("번호를 잘못 선택했음.");
                 continue;
             }
-            System.out.println("선택하신 메뉴는 " + menu + "번입니다.");
+            System.out.println("선택한 번호는 " + menu + "임.");
         }
 
     }
