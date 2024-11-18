@@ -3,15 +3,14 @@ package com.java.fm.ch5;
 public class ArrayEx5 {
     public static void main(String[] args) {
         int sum = 0;
-        float average = 0f;
+        double average = 0L;
+        int[] score = {100, 88, 90, 100, 100};
 
-        int[] score = { 100, 88, 100, 90, 100 };
-        for(int i = 0; i < score.length; i++) {
+        for (int i = 0; i < score.length; i++) {
             sum += score[i];
         }
-        average = sum / (float)score.length;
-
-        System.out.println("총점 : " + sum);
-        System.out.println("평균 : " + average);
+        average = sum / (double) (score.length);    // 명시적 형변환 (int / int = int타입이라 double로 형변환)
+        System.out.println("sum = " + sum);
+        System.out.println("average = " + average);
     }
 }

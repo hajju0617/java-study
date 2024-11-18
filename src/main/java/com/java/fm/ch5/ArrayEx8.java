@@ -2,20 +2,21 @@ package com.java.fm.ch5;
 
 public class ArrayEx8 {
     public static void main(String[] args) {
-        int[] ball = new int[45];
+        int[] ball = new int[46];
 
-        for(int i = 0; i < ball.length; i++) {
+        for (int i = 1; i < ball.length; i++) {
             ball[i] = i + 1;
         }
-
-        for(int i = 0; i < 6; i++) {        //
-            int j = (int)(Math.random() * 45);
-            int tmp = ball[i];
+        int temp = 0;
+        int range = 45;
+        for (int i = 1; i < range; i++) {
+            int j = (int) (Math.random() * 45) + 1;
+            temp = ball[i];
             ball[i] = ball[j];
-            ball[j] = tmp;
+            ball[j] = temp;
         }
-        for(int i = 0; i < 6; i++) {
-            System.out.printf("ball[%d] = %d\n", i, ball[i]);
+        for (int i = 1; i < 7; i++) {
+            System.out.printf("ball[%d] = %d%n", i, ball[i]);
         }
     }
 }
