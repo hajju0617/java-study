@@ -1,9 +1,4 @@
 package com.java.fm.ch2;
-
-import com.java.fm.ch6.Tv;
-
-import java.util.ArrayList;
-
 public class VarEx2 {
     public static void main(String[] args) {
         int x = 10, y = 20;
