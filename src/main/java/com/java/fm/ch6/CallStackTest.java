@@ -5,10 +5,10 @@ public class CallStackTest {
         firstMethod();
     }
 
-    static void firstMethod() {
+    static void firstMethod() {     // static 이므로 객체 생성 없이 호출 가능.
         secondMethod();
     }
     static void secondMethod() {
-        System.out.println("secondMethod");
+        System.out.println("secondMethod() 호출 되었음.");
     }
 }
