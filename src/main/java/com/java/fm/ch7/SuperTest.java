@@ -1,18 +1,20 @@
 package com.java.fm.ch7;
 
 public class SuperTest {
-//    public static void main(String[] args) {
-//        Child c = new Child();
-//        c.method();
-//    }
+    public static void main(String[] args) {
+        Child330 child330 = new Child330();
+        child330.method();
+    }
 }
-//class Parent {
-//    int x = 10;
-//}
-//class Child extends Parent {
-//    void method() {
-//        System.out.println("x = " + x);
-//        System.out.println("this.x = " + x);
-//        System.out.println("super.x = " + x);
-//    }
-//}
+
+class Parent330 {
+    int x = 10;
+}
+
+class Child330 extends Parent330 {
+    void method() {
+        System.out.println("x = " + x);
+        System.out.println("this.x = " + this.x);
+        System.out.println("super.x = " + super.x);
+    }
+}

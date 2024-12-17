@@ -1,35 +1,37 @@
 package com.java.fm.ch7;
 
 public class PointTest {
-//    public static void main(String[] args) {
-//        Point3D p3 = new Point3D(1,2,3);
-//        System.out.println(p3.getLocation());
-//    }
+    public static void main(String[] args) {
+        Point3D332 p3 = new Point3D332(1,2,3);
+    }
 }
 
-//class Point {
-//    int x, y;
-//    Point(int x, int y) {
-//        this.x = x;
-//        this.y = y;
-//    }
-//    Point() {
-//        this(0,0);
-//    }
-//    String getLocation() {
-//        return "x = " + x + ", y = " + y;
-//    }
-//}
-//class Point3D extends Point {
-//    int z;
-//
-//    Point3D(int x, int y, int z) {
-//        this.x = x;
-//        this.y = y;
-//        this.z = z;
-//    }
-//    String getLocation() {
-//        return "x = " + super.x + ", y = " + y + ", z = " + z;
-//    }
-//}
-    
+class Point332 {
+    int x, y;
+
+    Point332(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+    String getLocation() {
+        return "x = " + x + ", y = " + y;
+    }
+    Point332() {
+
+    }
+}
+
+class Point3D332 extends Point332{
+    int z;
+
+    Point3D332(int x, int y, int z) {
+        // super(); 를 컴파일러가 자동으로 넣어줌 -> 조상 클래스(Point332)의 기본 생성자가 없음 -> 에러.
+        this.x = x;
+        this.y = y;
+        this.z = z;
+    }
+
+    String getLocation() {
+        return "x = " + x + ", y = " + y + ", z = " + z;
+    }
+}
