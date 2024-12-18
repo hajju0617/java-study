@@ -26,7 +26,7 @@ class Point3D332 extends Point332{
 
     Point3D332(int x, int y, int z) {
         // super(); 를 컴파일러가 자동으로 넣어줌 -> 조상 클래스(Point332)의 기본 생성자가 없음 -> 에러.
-        this.x = x;
+        this.x = x;                       // -> 조상 클래스 기본 생성자 만들기 or  Point332(int x, int y) 호출하면 됨.
         this.y = y;
         this.z = z;
     }
