@@ -1,51 +1,48 @@
 package com.java.fm.ch7;
 
 public class PolyArgumentTest {
-//    public static void main(String[] args) {
-//        Buyer b = new Buyer();
-//        b.buy(new Tv());
-////        Tv tv = new Tv();
-////        b.buy(tv);
-//        b.buy(new Computer());
-//
-//        System.out.printf("현재 남은 돈은 %d 만원입니다.\n", b.money);
-//        System.out.printf("현재 보너스 포인트는 %d 점 입니다.\n", b.bonusMoney);
-//    }
-
+    public static void main(String[] args) {
+        Buyer368 b = new Buyer368();
+        b.buy(new Tv368());
+        b.buy(new Computer368());
+        System.out.println("현재 남은 돈은 " + b.money + "만원.");
+        System.out.println("현재 보너스 점수는 : " + b.bonusPoint);
+    }
 }
-
-//class Product {
-//    int price;
-//    int bonusPoint;
-//    Product(int price) {
-//        this.price = price;
-//        this.bonusPoint = (int)(price / 10.0);
-//    }
-//}
-//
-//class Tv extends Product {
-//    Tv() {
-//        super(100);
-//    }
-//    public String toString() { return "Tv"; }
-//}
-//class Computer extends Product {
-//    Computer() {
-//        super(200);
-//    }
-//    public String toString() { return "Computer"; }
-//}
-//class Buyer {
-//    int money = 1000;
-//    int bonusMoney = 0;
-//
-//    void buy(Product p) {
-//        if(money < p.price) {
-//            System.out.println("잔액이 부족하여 물건을 살 수 없음");
-//            return;
-//        }
-//        money -= p.price;
-//        bonusMoney += p.bonusPoint;
-//        System.out.println(p + "을/를 구입했다.");
-//    }
-//}
+class Product368 {
+    int price;
+    int bonusPoint;             // 제품 구매시 주는 보너스 포인트.
+    Product368(int price) {
+        this.price = price;
+        bonusPoint = (int) (price / 10.0);
+    }
+}
+class Tv368 extends Product368 {
+    Tv368() {
+        super(100);
+    }
+    public String toString() {      // Object 클래스의 toString 오버라이딩.
+        return "Tv";
+    }
+}
+class Computer368 extends Product368 {
+    Computer368() {
+        super(200);
+    }
+    public String toString() {
+        return "Computer";
+    }
+}
+class Buyer368 {
+    int money = 1000;
+    int bonusPoint = 0;
+    void buy(Product368 p) {
+        if (money < p.price) {
+            System.out.println("잔액 부족. 구입할 수 없음.");
+            return;
+        }
+        money -= p.price;
+        bonusPoint += p.bonusPoint;
+        System.out.println(p.toString() + "을/를 구입함.");
+    }
+}

@@ -4,89 +4,92 @@ import java.util.Vector;
 
 public class PolyArgumentTest3 {
     public static void main(String[] args) {
-        Buyer b = new Buyer();
-        Tv tv = new Tv();
-        Computer com = new Computer();
-        Audio audio = new Audio();
-
+        Buyer373 b = new Buyer373();
+        Tv373 tv = new Tv373();
+        Computer373 computer = new Computer373();
+        Audio373 audio = new Audio373();
         b.buy(tv);
-        b.buy(com);
+        b.buy(computer);
         b.buy(audio);
         b.summary();
-        System.out.println();
-        b.refund(com);
+        System.out.println("===========");
+        b.refund(computer);
         b.summary();
-
     }
 }
-class Product {
+class Product373 {
     int price;
     int bonusPoint;
-    Product(int price) {
+    Product373(int price) {
         this.price = price;
-        this.bonusPoint = (int)(price / 10.0);
+        bonusPoint = (int) (price / 10.0);
+    }
+    Product373() {
+        price = 0;
+        bonusPoint = 0;
     }
 }
-class Tv extends Product {
-    Tv() {
+class Tv373 extends Product373 {
+    Tv373() {
         super(100);
     }
-    @Override
-    public String toString() { return "Tv"; }
+    public String toString() {
+        return "Tv";
+    }
 }
-class Computer extends Product {
-    Computer() {
+class Computer373 extends Product373 {
+    Computer373() {
         super(200);
     }
-    @Override
-    public String toString() { return "Computer"; }
+    public String toString() {
+        return "Computer";
+    }
 }
-class Audio extends Product {
-    Audio() {
+class Audio373 extends Product373 {
+    Audio373() {
         super(50);
     }
-    @Override
-    public String toString() { return "Audio"; }
+    public String toString() {
+        return "Audio";
+    }
 }
-class Buyer {
+class Buyer373 {
     int money = 1000;
     int bonusPoint = 0;
-    Vector item = new Vector();
-
-    void buy(Product p) {
-        if(money < p.price) {
-            System.out.println("잔액이 부족하여 물건을 살 수 없음");
+    Vector item = new Vector();         // 구입한 제품을 저장할 벡터 객체. (동적 배열, 내부적으로 Object 타입의 배열.)
+    void buy(Product373 p) {
+        if (money < p.price) {
+            System.out.println("잔액 부족. 구입 못함.");
             return;
         }
         money -= p.price;
         bonusPoint += p.bonusPoint;
         item.add(p);
-        System.out.println(p + "을/를 구매했다.");
+        System.out.println(p + "을/를 구입함.");
     }
-    void refund (Product p) {
+    void refund(Product373 p) {
         if (item.remove(p)) {
             money += p.price;
-            bonusPoint -= bonusPoint;
-            System.out.println(p + "을/를 반품하셨습니다.");
+            bonusPoint -= p.bonusPoint;
+            System.out.println(p + "을/를 반품.");
         } else {
-            System.out.println("구입하신 제품 중 해당 제품은 없습니다.");
+            System.out.println("구입한 제품 중 해당 제품은 없음.");
         }
     }
     void summary() {
         int sum = 0;
         String itemList = "";
-
-        if(item.isEmpty()) {
-            System.out.println("구입하신 제품이 없습니다.");
+        if (item.isEmpty()) {
+            System.out.println("구입한 제품이 없음.");
             return;
         }
-        for(int i = 0; i < item.size(); i++) {
-            Product p = (Product) item.get(i);
+        for (int i = 0; i < item.size(); i++) {
+            Product373 p = (Product373) item.get(i);
             sum += p.price;
-            itemList += (i==0) ? "" + p : ", " + p;
+            itemList += (i == 0) ? "" + p : ", " + p;
         }
-        System.out.printf("구입하신 물품의 총금액은 %d만원 입니다.\n", sum);
-        System.out.printf("구입하신 제품은 %s입니다.\n", itemList);
+        System.out.println("구매한 물품의 총금액은 : " + sum);
+        System.out.println("구매한 제품 : " + itemList);
     }
 }
 
