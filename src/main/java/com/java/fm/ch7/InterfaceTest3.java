@@ -2,34 +2,31 @@ package com.java.fm.ch7;
 
 public class InterfaceTest3 {
     public static void main(String[] args) {
-        A a = new A();
+        A399 a = new A399();
         a.methodA();
     }
 }
 
-class A {
-    void methodA() {
-        I i = InstanceManager.getInstance();
-        i.methodB();
-        System.out.println(i.toString());;
-    }
-}
-
-interface I {
+interface I399 {
     public abstract void methodB();
 }
-
-class B implements I {
-    public void methodB() {
-        System.out.println("methodB in B class");
-    }
-    public String toString() {
-        return "class B";
+class A399 {
+    void methodA() {
+        I399 i = InstanceManager399.getInstance();
+        i.methodB();
+        System.out.println(i.toString());
     }
 }
-
-class InstanceManager {
-    public static I getInstance() {
-        return new B();
+class B399 implements I399{
+    public void methodB() {
+        System.out.println("B 클래스 안에 있는 methodB()");
+    }
+    public String toString() {
+        return "class B399";
+    }
+}
+class InstanceManager399 {
+    public static I399 getInstance() {
+        return new B399();
     }
 }

@@ -79,9 +79,9 @@ class SCV392 extends GroundUnit392 implements Repairable392 {
             Unit u = r; 이 코드에서 오류가 발생하는 이유는
             Repairable 인터페이스 타입의 참조변수 r을 Unit (클래스) 타입으로 자동 형변환할 수 없기 때문
             클래스 타입으로 형변환을 하려면 명시적 형변환이 필요.
-            정확하게 따져보면
+            
             (instanceof로 안전성 확인)
-            Repairable392와 Unit392 사이에 직접적인 상속 관계가 없으므로 안전성을 보장하기 위해 형변환을 명시.
+            Repairable392와 Unit392 사이에 직접적인 상속 관계가 없으므로(간접적 상속관계) 안전성을 보장하기 위해 형변환을 명시.
              */
             while(u.hitPoint != u.MAX_HP) {
                 u.hitPoint++;
