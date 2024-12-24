@@ -2,16 +2,18 @@ package com.java.fm.ch8;
 
 public class ExceptionEx3 {
     public static void main(String[] args) {
-        int number = 100;
-        int result = 0;
-
-        for(int i = 0; i < 10; i++) {
+        int number = 100, result = 0;
+        for (int i = 0; i < 10; i++) {
             try {
-                result = number / (int)(Math.random() * 10);
-                System.out.println(result);
-            } catch (ArithmeticException e) {
-                System.out.printf("%d번째 에러 발생\n", i+1);
+                int num = (int) (Math.random() * 10);
+                System.out.println("num = " + num);
+                result = number / num;
+                System.out.println("result = " + result);
+            } catch (ArithmeticException ae) {
+                System.out.println("예외 발생.");
             }
-        } // for 끝
+        }
     }
 }
+
+
